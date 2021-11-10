@@ -5,6 +5,37 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/spring-cloud-samples/config-repo
-#          searchPaths: '{application}'
+          uri: git@github.com:YanshuGupta/ConfigRepo.git
+#          searchPaths: station1
           default-label: main
+          passphrase: secret123
+          ignore-local-ssh-settings: true
+          private-key: |
+                        -----BEGIN RSA PRIVATE KEY-----
+                        MIIEpQIBAAKCAQEAqru2JM9BVmghkuUxJQLSPjsyLf/JRQ2cp5Vqhv4AmBVoEPcM
+                        rnaWfHZavmvQLNqDYFCSK2OvidKOSmP5Jx264QbxJRHFBdF9oHDs4Xwqg++QN9Ki
+                        h9+OcDsP2G+jVpLOOkcaYUfSb1+JIchyR/ZxgHFxx/yBgT6rdgCgvVwzejdR5zls
+                        N88aqpF2d8h0qqKS+fU7jHoS/NG9q88SLIs+qM+38i/xPl8ES21mHvcCruXQwJ5W
+                        C7rGDxIbKeEoxV0WjwFbkIoAa6gLLLFHiw0wiHW973gl/DcJ6mZSNZDZk7blSK+w
+                        GyUmnfsSp8ziZnMlN3dlfE1knerXPwPiBBAPNwIDAQABAoIBACXM9aDkukSVPYm2
+                        cNEO9NmOZafFkBxXzS1VaYaFyj/hzW6kJAykeOEJm0G5wReNMbUrYZF1urG7CoHx
+                        7IH6lRupW86nRoXpQfU5y1iJEyiu67FQU2fd2T2D9hgnb3SFgF9qyq5rJm4+KrBu
+                        Hs9MAwk7FMQAZfPlmjTAItaKCWOvalh1EHcExHSzq4eiXqOXbVoQHkjSCEPN++jG
+                        ADPnVTyE/NlRbVKPTKnB1Oh+43WDAqZSBub5Sk8ux+d9ubsUtK1IypJka/VyE6VJ
+                        Bo0AUGTviEM20mPN2VUclc1cqW+8xaVyVib8E0YBOwWeagRlLhSs5LThmyvxxxpT
+                        LIhxrAECgYEA8IJJbkO9L42PS9wkqOgzmk+M+8t0nD9NJlGApiAZyDJJ+vQvgX5c
+                        T3sotzJ9f8Xvuail6wkYO8HfogDWKptKD0sIRtly6ZJtYqkkUlINg/xKCmBuEQv5
+                        HXtsPXoOUZ8x80QCxmjB8h8h1l5BKe6YTX9Vwe5WgPqotJuRTwxnPjcCgYEAtbrn
+                        k+HXNjYYN1K9ntdSVncBPjhaYMuXuKY+UH3uY/C/y31GAl0XySepuw5sYsHkMoXN
+                        xVwv+q3ckWWis3wkUqL46DLbIdMoyMbLPZgCOatmbnSgVivV83A/phyb2jMl92C8
+                        qFLmSbx7/eL6s5WdeM1tTZEHXelj4rLKxiONNwECgYEA2nfO0f1wPWDeWK9ZEaET
+                        NsmqLBLtEv0hTHxeWwjvwn2D3BSxjnREz+H04yxW+ZjIIKKETJKPU8DRLmyKHlu/
+                        E1M56nmdu3PKLwOrvadRJaInc3OSp6Nzn4c8lD9qAFSWX/5Ycvg3rIMBDqPBl6Bm
+                        8oaHVMj2BOUsGBr0DJUct1MCgYEAh4CfX5LLh256S/Xz0VY33KTLVntqWDY2IMZE
+                        PHxJnldKiw4Tf3uuWpyqYAF3K4PrBQjjzz7Xv5CXoAoqcK4l30AJXAlffy8Vf+9K
+                        Z9jJ//ofXEi1rMrusp+FtfQq+V2d94A360I019Ikmb/+spziV8rEr0tuNMXrZoNt
+                        0qN7jgECgYEA2xUzOkp8kuNGLqsrbH4aLHHod6OR0IB9V4aaAZEcj0Q7zlOXfGXu
+                        dYwPaVZ3jjE8oIlxCxqQpbfN4rEZo+tiiOAFVNKIsaKTG1xR3Dxa4m3g9mTDRgKa
+                        PuER5j9NzqRvt/6cmnhqEfAhm07z7s2QC9tN+T28bdzdW8N1pALGQu0=
+                        -----END RSA PRIVATE KEY-----
+
